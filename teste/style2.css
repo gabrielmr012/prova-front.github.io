@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #fafafa;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fcfbff;
+    box-shadow: 0 1px 0 #ececec;
+    max-width: 1120px;
+    width: 100%;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 40px;
+    margin: 100px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+  
+  .image {
+    float: right;
+    max-width: 174px;
+    max-height: 174px;
+  }
+  
+  .blue {
+    border-left: 3px solid #4895ff;
+  }
+  
+  .green {
+    border-left: 3px solid #3bb54a;
+  }
+  
+  .red {
+    border-left: 3px solid #b3404a;
+  }
+  
